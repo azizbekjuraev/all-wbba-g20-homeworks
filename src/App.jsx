@@ -3,7 +3,7 @@ import Table from "./components/Table";
 function App() {
   return (
     <>
-      <h1 style={{ "text-align": "center" }}>This is a Table</h1>
+      <h1 style={{ textAlign: "center" }}>This is a Table</h1>
       <Table />
     </>
   );

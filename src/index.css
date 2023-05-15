@@ -4,6 +4,8 @@
   height: 350px;
   padding: 30px 10px 30px 10px;
   background-color: whitesmoke;
+  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 table {
@@ -33,6 +35,11 @@ td {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+
+.search {
+  margin: 15px 0 15px 35px;
+  padding: 8px 15px;
 }
 
 .edit-btn {
